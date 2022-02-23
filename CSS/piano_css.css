@@ -1,0 +1,75 @@
+body{
+    font-size: 0;
+}
+h1, p{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+#lista1{
+    width: 100%;
+    padding-top: 20px;
+    height: 600px;
+    background-color: rgb(38, 37, 41);
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    background: url('../imagenes/index_piano.jpeg');
+    background-size: 150%;
+}
+#lista1 div{
+    width:320px ;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    
+}
+#lista1 img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+#lista1 img:hover{
+    width: 310px;
+    height: 310px;
+}
+#conten2{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(47, 48, 48);
+    
+}
+#conten2 h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(169, 213, 241);
+}
+#conten3{
+    padding: 20px;
+    background-color: rgb(47, 48, 48);
+}
+#contenimg{
+    margin: 0 auto;
+    width: 500px;
+    height: 325px;
+    text-align: center;
+    padding-top:25px ;
+    
+}
+#contenimg img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20%;
+    
+}
+#contenimg img:hover{
+    width: 420px;
+    height: 320px;
+}
+#conten3 p{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

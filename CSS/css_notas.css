@@ -1,0 +1,100 @@
+.pianoarr{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(35, 47, 76);
+}
+.pianoarr h1{
+    color: cornflowerblue;
+    font-size: 40px;
+    margin: 20px;
+}
+.pianoarr p{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.pianoarr img{
+    width: 800px;
+}
+.notas2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(35, 47, 76);
+    padding-top: 10px;
+   position: relative;
+   margin: auto;
+   
+}
+.imgnt{
+    width: 280px;
+    height: 400px;
+    
+    height: 250px;
+    float: left;
+    display: block;
+    margin: 20px auto;
+    margin-left: 20px;
+    text-align: center;
+}
+.imgnt img {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    
+}
+.imgnt p{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imgnt img:hover{
+    width: 270px;
+    height: 220px;
+    image-resolution: 270px;
+}
+.cont3{
+    background-color: rgb(35, 47, 76);
+    padding: 3rem;
+    text-align: center;
+}
+.cont3 h1{
+    font-size: 3rem;
+    color:slateblue;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.cont3 p{
+    color: rgb(172, 225, 233);
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.cont3 img{
+    margin: 20px;
+    border-radius: 5%;
+}
+.suriken{
+    width: 100px;
+    
+}
+ .suriken:hover{
+    border-top: 10px solid rgb(230, 150, 30);
+  border-radius: 50%;
+  box-shadow: 4px 4px 4px 3px rgb(238, 69, 17);
+  animation-name: girar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+img{
+    width: 800px;
+}
+
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
